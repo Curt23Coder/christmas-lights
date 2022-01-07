@@ -98,7 +98,7 @@ button {
         font-size: 22px;
     }
     button {
-       font-size: 17px;
+       font-size: 20px;
     }
 .christmas-tree {
     font-size: 12px;
@@ -109,10 +109,22 @@ button {
         font-size: 22px;
     }
     button {
-       font-size: 17px;
+       font-size: 22px;
     }
 .christmas-tree {
-    font-size: 16px;
+    font-size: 15px;
+}
+
+}
+@media (min-width: 700px) and (max-width: 740px) {
+    h1 {
+        font-size: 20px;
+    }
+    button {
+        font-size: 13px;
+    }
+.christmas-tree {
+    font-size: 8px;
 }
 .christmas-tree-light {
     box-shadow: 30px 30px 30px 30px rgba(255, 255, 255, 0.705);
@@ -160,16 +172,5 @@ button {
     position: relative;
     left: -30px;
     top: 210px;
-}
-}
-@media (min-width: 700px) and (max-width: 740px) {
-    h1 {
-        font-size: 20px;
-    }
-    button {
-        font-size: 13px;
-    }
-.christmas-tree {
-    font-size: 8px;
 }
 }
