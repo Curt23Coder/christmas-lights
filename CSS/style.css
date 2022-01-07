@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(184, 9, 9);
+}
+h1 {
+    text-align: center;
+    font-family: 'Pushster', cursive, sans-serif;
+    color: #fff;
+}
+ p {
+    text-align: center;
+    color: #fff;
+    z-index: 100;
+}
+.christmas-tree-light{
+    box-shadow: 55px 55px 55px 55px rgba(255, 255, 255, 0.705);
+    width: 100px;
+    position: relative;
+    left: -50px;
+    margin: auto;
+
+}
+.christmas-tree-light2{
+    box-shadow: 55px 55px 55px 55px rgba(15, 31, 255, 0.678);
+    width: 100px;
+    margin: auto;
+    position: relative;
+    left: -50px;
+    top: 50px;
+}
+.christmas-tree-light3{
+    box-shadow: 55px 55px 55px 55px rgba(102, 165, 0, 0.794);
+    width: 100px;
+    margin: auto;
+    left: -50px;
+    position: relative;
+    top: 110px;
+}
+.christmas-tree-light4{
+    box-shadow: 55px 55px 55px 55px rgba(201, 7, 235, 0.794);
+    width: 100px;
+    margin: auto;
+    left: -50px;
+    position: relative;
+    top: 170px;
+}
+.christmas-tree-light5{
+    box-shadow: 55px 55px 55px 55px rgba(255, 72, 0, 0.794);
+    width: 100px;
+    margin: auto;
+    left: -50px;
+    position: relative;
+    top: 210px;
+}
+.christmas-tree-light6{
+    box-shadow: 55px 55px 55px 55px rgba(230, 189, 7, 0.794);
+    width: 100px;
+    margin: auto;
+    left: -50px;
+    position: relative;
+    top: 300px;
+}
+.christmas-tree-light7{
+    box-shadow: 55px 55px 55px 55px rgba(230, 7, 111, 0.794);
+    width: 100px;
+    margin: auto;
+    left: -50px;
+    position: relative;
+    top: 340px;
+}
+.christmas-tree-light8{
+    box-shadow: 55px 55px 55px 55px rgba(255, 255, 255, 0.787);
+    width: 100px;
+    margin: auto;
+    left: -50px;
+    position: relative;
+    top: 440px;
+}
+.center {
+   text-align: center;
+
+}
+.let-there-be-light {
+    opacity: 0;
+    margin: auto;
+}
+button {
+    background-color: rgb(46, 114, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 90%;
+    font-size: 25px;
+    text-align: center;
+}
+@media (min-width: 150px) and (max-width: 450px){
+    h1 {
+        font-size: 22px;
+    }
+    button {
+       font-size: 13px;
+    }
+.christmas-tree {
+    font-size: 12px;
+}
+}
+@media (min-width: 500px) and (max-width: 685px){
+    h1 {
+        font-size: 22px;
+    }
+    button {
+       font-size: 13px;
+    }
+.christmas-tree {
+    font-size: 6px;
+}
+.christmas-tree-light {
+    box-shadow: 30px 30px 30px 30px rgba(255, 255, 255, 0.705);
+    position: relative;
+    left: -30px;
+}
+.christmas-tree-light2 {
+    box-shadow: 30px 30px 30px 30px rgba(15, 31, 255, 0.678);
+    position: relative;
+    left: -30px;
+    top: 30px;
+}
+.christmas-tree-light3{
+    box-shadow: 30px 30px 30px 30px rgba(102, 165, 0, 0.794);
+    position: relative;
+    left: -30px;
+    top: 60px;
+}
+.christmas-tree-light4 {
+    box-shadow: 30px 30px 30px 30px rgba(201, 7, 235, 0.794);
+    position: relative;
+    left: -30px;
+    top: 90px;
+}
+.christmas-tree-light5{
+    box-shadow: 30px 30px 30px 30px rgba(255, 72, 0, 0.794);
+    position: relative;
+    left: -30px;
+    top: 120px;
+}
+.christmas-tree-light6{
+    box-shadow: 30px 30px 30px 30px rgba(230, 189, 7, 0.794);
+    position: relative;
+    left: -30px;
+    top: 150px;
+}
+.christmas-tree-light7 {
+    box-shadow: 30px 30px 30px 30px rgba(230, 7, 111, 0.794);  
+    position: relative;
+    left: -30px;
+    top: 180px;
+}
+.christmas-tree-light8 {
+    box-shadow: 30px 30px 30px 30px rgba(255, 255, 255, 0.787);
+    position: relative;
+    left: -30px;
+    top: 210px;
+}
+}
+@media (min-width: 700px) and (max-width: 740px) {
+    h1 {
+        font-size: 20px;
+    }
+    button {
+        font-size: 13px;
+    }
+.christmas-tree {
+    font-size: 8px;
+}
+}
